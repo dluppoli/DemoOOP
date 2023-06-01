@@ -1,4 +1,6 @@
-export class Libro
+import { IGetInfo } from "./IGetInfo";
+
+export abstract class Libro implements IGetInfo
 {
     private dataCreazione : Date;
 
