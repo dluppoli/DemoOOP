@@ -1,4 +1,4 @@
-class Libro
+export class Libro
 {
     private dataCreazione : Date;
 

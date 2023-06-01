@@ -1,4 +1,6 @@
-class LibroCartaceo extends Libro
+import { Libro } from "./Libro";
+
+export class LibroCartaceo extends Libro
 {
     constructor(titolo:string, autore:string, pagine:number);
     constructor(titolo:string, autore:string, pagine:number, prezzo:number);
